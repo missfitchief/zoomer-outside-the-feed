@@ -24,6 +24,8 @@ The current version includes four original mood illustrations, the continuous sk
 
 ## 2K media delivery
 
-The wide hero is 2560×1440 at 60 fps, with a controlled one-second 2D skateboard push repeated through a seamless 16-second moving-world composition. The rear shoe keeps its original artwork and rigid shape; a continuous trouser silhouette follows fixed knee joints. Its planted sole travels at the pavement's speed and clears the ground before rotating into recovery. The camera follows Zoomer while the park travels left and the pavement passes twice as fast; the sky stays anchored. All layers are baked into one video.
+The hero uses a new whole-body skateboarding performance generated in Higgsfield with MiniMax H3 at native 2560×1440. The supporting knee bends, hips dip and rise, torso/head balance, free arm swings and rear foot pushes and recovers together. A matched forward cycle is retimed to 1.5 seconds and interpolated as complete 2K frames to 60 fps with RIFE. The native generation was 24 fps with paired near-held frames; it was not natively 60 fps.
+
+The whole generated rider, cup and skateboard are segmented into the moving skatepark. No body parts are frozen or manually retargeted. One seamless 10.5-second video contains seven body cycles and a full moving-world period, with anchored sky and faster foreground pavement. The matching poster is its first frame. Detailed generation, resampling and review evidence is in ASSETS.json.
 
 Square illustrations and story videos are delivered at 2048×2048. Story videos use 60 fps. Only active media plays, with reduced-motion and data-saving static fallbacks.
